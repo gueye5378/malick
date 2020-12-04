@@ -1,0 +1,825 @@
+$paddingtop: 30px;
+/*header*/
+header {
+  width:100%;
+  height: auto;
+  background-image: url(../../images/wallpaper5.png);
+  background-size: 100%;
+  background-position: center top;
+  padding: 10px;
+  background-repeat:no-repeat ;
+  background-color: #464248;
+}
+#nav_ {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*header right*/
+  .nav_right {
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    .header__img {
+      width:25%;
+      padding-left: 10px;
+    }
+    .header__ul {
+      flex: 2;
+      ul {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-right: 10px;
+        margin: 0;
+        li {
+          list-style: none;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 17px;
+          padding-right: 30px;
+        }
+        .li_hoverActive{
+          transition: transform .2s; /* Animation */
+          color: #30368E;
+          font-weight: 900;
+        }
+        .li_hoverActive:hover {
+          transform: scale(1.2);
+
+        }
+        .li_hover {
+          transition: transform .2s; /* Animation */
+          color: #6B7688;
+        }
+        .li_hover:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+}
+#title {
+  width: 100%;
+  height: auto;
+  padding-top: $paddingtop;
+  .header_img {
+    width: 40%;
+    height: 400px;
+    background-image: url("../../images/MalickGueye.png");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+  }
+  .header_button {
+    width: 40%;
+    height: 100px;
+    padding-left: 35px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: $paddingtop;
+    button {
+      padding: 15px 20px;
+      font-size: 15px;
+      font-family: 'Montserrat', sans-serif;
+    }
+    a {
+      margin-left: 30px;
+      font-size: 16px;
+      text-decoration: none;
+    }
+  }
+}
+#section_services {
+  margin-top: 33%;
+  width: 100%;
+  height: 45%;
+  #header_services {
+    width: 100%;
+    height: 30%;
+    display: flex;
+      .subtext_services {
+        width: 35%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .title_services {
+        width: 65%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        h1 {
+          color: white;
+          font-size: 50px;
+          font-family: 'Roboto', sans-serif;
+
+        }
+        p {
+          margin-top: 30px;
+          color: grey;
+          font-size: 15px;
+          padding: 0;
+      }
+    }
+  }
+  #article_service {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    .ligne__ {
+      width: 100%;
+      height: 50px;
+      background-image: url("../../images/ligne.png");
+      background-size: 20%;
+      background-position: right;
+      background-repeat: no-repeat;
+    }
+    .contain_services {
+      display: flex;
+      justify-content: space-between;
+      padding: 50px 50px;
+      .service_title {
+        width: 25%;
+        height: 490px;
+        background-image: url("../../images/01.png");
+        background-size: 120%;
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        position: relative;
+      }
+      .service {
+        width: 20%;
+        height: 490px;
+        background-color:#56505a;
+        border-radius: 30px;
+        position: relative;
+        .img_services {
+          width: 100%;
+          height: 55%;
+          background-color: dodgerblue;
+          border-radius: 20px;
+          background-image: url("../../images/services7.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: top center;
+        }
+        .img_services2 {
+          width: 100%;
+          height: 55%;
+          background-color: dodgerblue;
+          border-radius: 20px;
+          background-image: url("../../images/service5.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: top center;
+        }
+        .img_services3 {
+          width: 100%;
+          height: 55%;
+          background-color: dodgerblue;
+          border-radius: 20px;
+          background-image: url("../../images/services3.jpg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: top center;
+        }
+        .img_services4{
+          width: 100%;
+          height: 55%;
+          background-color: dodgerblue;
+          border-radius: 20px;
+          background-image: url("../../images/service4.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: top center;
+        }
+        .content_ {
+          width: 100%;
+          height:55%;
+          background-color: #56505a;
+          color: white;
+          border-radius: 20px 20px 30px  30px;
+          padding: 20px 10px;
+          font-family: 'Montserrat', sans-serif;
+          h5 {
+            font-weight: bold;
+          }
+
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1120px) {
+  #title {
+    width: 100%;
+    height: auto;
+    padding-top: $paddingtop;
+    .header_img {
+      width: 40%;
+      height: 400px;
+      background-image: url("../../images/MalickGueye.png");
+      background-repeat: no-repeat;
+      background-size: 90%;
+      background-position: center;
+    }
+    .header_button {
+      width: 40%;
+      height: 100px;
+      padding-left: 35px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-top: $paddingtop;
+      button {
+        padding: 15px 20px;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+      }
+      a {
+        margin-left: 30px;
+        font-size: 16px;
+        text-decoration: none;
+      }
+    }
+  }
+  #section_services {
+    margin-top: 10% ;
+    width: 100%;
+    height: 45%;
+    #header_services {
+      width: 100%;
+      height: 30%;
+      display: flex;
+
+      .subtext_services {
+        width: 35%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .title_services {
+        width: 65%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        h1 {
+          color: white;
+          font-size: 40px;
+          font-family: 'Roboto', sans-serif;
+
+        }
+
+        p {
+          margin-top: 30px;
+          color: grey;
+          font-size: 15px;
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1030px) {
+  #nav_ {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /*header right*/
+    .nav_right {
+      display: flex;
+      flex: 2;
+      justify-content: center;
+      align-items: center;
+      .header__img {
+        width:25%;
+        padding-left: 10px;
+      }
+      .header__ul {
+        flex: 2;
+        ul {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          margin: 0;
+          padding: 0;
+          li {
+            list-style: none;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            padding-right: 30px;
+          }
+          .li_hoverActive{
+            transition: transform .2s; /* Animation */
+            color: #30368E;
+            font-weight: 900;
+          }
+          .li_hoverActive:hover {
+            transform: scale(1.2);
+
+          }
+          .li_hover {
+            transition: transform .2s; /* Animation */
+            color: #6B7688;
+          }
+          .li_hover:hover {
+            transform: scale(1.2);
+          }
+        }
+      }
+    }
+  }
+  #title {
+    width: 100%;
+    height: auto;
+    padding-top: $paddingtop;
+    .header_img {
+      width: 50%;
+      height: 400px;
+      background-image: url("../../images/MalickGueye.png");
+      background-repeat: no-repeat;
+      background-size: 90%;
+      background-position: center;
+    }
+    .header_button {
+      display: none;
+    }
+  }
+  #section_services {
+    margin-top: 18%;
+    width: 100%;
+    height: 45%;
+    #header_services {
+      width: 100%;
+      height: 30%;
+      display: flex;
+      .subtext_services {
+        width: 35%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .title_services {
+        width: 65%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        h1 {
+          color: white;
+          font-size: 30px;
+          font-family: 'Roboto', sans-serif;
+
+        }
+        p {
+          margin-top: 30px;
+          color: grey;
+          font-size: 15px;
+          padding: 0;
+        }
+      }
+    }
+    #article_service {
+      width: 100%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      .ligne__ {
+        width: 100%;
+        height: 50px;
+        background-image: url("../../images/ligne.png");
+        background-size: 20%;
+        background-position: right;
+        background-repeat: no-repeat;
+      }
+      .contain_services {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        .service_title {
+          display: none;
+          width: 25%;
+          height: 390px;
+          background-image: url("../../images/01.png");
+          background-size: 120%;
+          background-position: bottom left;
+          background-repeat: no-repeat;
+          position: relative;
+        }
+        .service {
+          width:30%;
+          height:390px;
+          background-color: #56505a;
+          border-radius: 30px;
+          position: relative;
+          .img_services {
+            width: 100%;
+            height: 55%;
+            background-color: dodgerblue;
+            border-radius: 20px;
+            background-image: url("../../images/services7.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top center;
+          }
+          .img_services2 {
+            width: 100%;
+            height: 55%;
+            background-color: dodgerblue;
+            border-radius: 20px;
+            background-image: url("../../images/service5.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top center;
+          }
+          .img_services3 {
+            width: 100%;
+            height: 55%;
+            background-color: dodgerblue;
+            border-radius: 20px;
+            background-image: url("../../images/services3.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top center;
+          }
+          .img_services4{
+            width: 100%;
+            height: 55%;
+            background-color: dodgerblue;
+            border-radius: 20px;
+            background-image: url("../../images/service4.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top center;
+          }
+          .content_ {
+            width: 100%;
+            height:55%;
+            background-color: #56505a;
+            color: white;
+            border-radius: 20px 20px 30px  30px;
+            padding: 20px 10px;
+            font-family: 'Montserrat', sans-serif;
+            h5 {
+              font-weight: bold;
+            }
+
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 730px) {
+  #nav_ {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /*header right*/
+    .nav_right {
+      display: flex;
+      flex: 2;
+      justify-content: center;
+      align-items: center;
+      .header__img {
+        width:25%;
+        padding-left: 10px;
+      }
+      .header__ul {
+        flex: 2;
+        ul {
+          display: none;
+        }
+      }
+    }
+  }
+  #title {
+    width: 100%;
+    height: auto;
+    padding-top: $paddingtop;
+    .header_img {
+      width: 50%;
+      height: 200px;
+      background-image: url("../../images/MalickGueye.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center;
+    }
+    .header_button {
+      display: none;
+    }
+  }
+  #section_services {
+    margin-top: 38%;
+    width: 100%;
+    height: 45%;
+    #header_services {
+      width: 100%;
+      height: 30%;
+      display: flex;
+      .subtext_services {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .title_services {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        h1 {
+          color: white;
+          font-size: 27px;
+          font-family: 'Roboto', sans-serif;
+
+        }
+        p {
+          margin-top: 30px;
+          color: grey;
+          font-size: 15px;
+          padding: 0;
+        }
+      }
+    }
+    #article_service {
+      width: 100%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      .ligne__ {
+        width: 100%;
+        height: 50px;
+        background-image: url("../../images/ligne.png");
+        background-size: 20%;
+        background-position: right;
+        background-repeat: no-repeat;
+      }
+      .contain_services {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        .service_title {
+          display: none;
+        }
+        #service_display_none {
+          display: none;
+        }
+        .service {
+          width:40%;
+          height:390px;
+          background-color: #56505a;
+          border-radius: 30px;
+          margin-left: 20px;
+          position: relative;
+          .img_services {
+            width: 100%;
+            height: 55%;
+            background-color: dodgerblue;
+            border-radius: 20px;
+            background-image: url("../../images/services7.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top center;
+          }
+          .img_services2 {
+            width: 100%;
+            height: 55%;
+            background-color: dodgerblue;
+            border-radius: 20px;
+            background-image: url("../../images/service5.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top center;
+          }
+          .img_services3 {
+            width: 100%;
+            height: 55%;
+            background-color: dodgerblue;
+            border-radius: 20px;
+            background-image: url("../../images/services3.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top center;
+          }
+          .img_services4{
+            width: 100%;
+            height: 55%;
+            background-color: dodgerblue;
+            border-radius: 20px;
+            background-image: url("../../images/service4.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top center;
+          }
+          .content_ {
+            width: 100%;
+            height:25%;
+            background-color: #56505a;
+            color: white;
+            border-radius: 20px 20px 30px  30px;
+            padding: 5px 10px;
+            font-family: 'Montserrat', sans-serif;
+            h5 {
+              font-weight: bold;
+
+            }
+            p {
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 455px) {
+  #nav_ {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /*header right*/
+    .nav_right {
+      display: flex;
+      flex: 2;
+      justify-content: center;
+      align-items: center;
+      .header__img {
+        width:35%;
+        padding-left: 10px;
+      }
+      .header__ul {
+        flex: 2;
+        ul {
+          display: none;
+        }
+      }
+    }
+  }
+  #title {
+    width: 100%;
+    height: auto;
+    padding-top: $paddingtop;
+    .header_img {
+      width: 50%;
+      height: 200px;
+      background-image: url("../../images/MalickGueye.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center;
+    }
+    .header_button {
+      display: none;
+    }
+  }
+  #section_services {
+    margin-top: 23%;
+    width: 100%;
+    height: 45%;
+    #header_services {
+      width: 100%;
+      height: 30%;
+      display: flex;
+      justify-content: center;
+      .subtext_services {
+        display:none;
+      }
+      .title_services {
+        width: 85%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        h1 {
+          color: white;
+          font-size: 20px;
+          font-family: 'Roboto', sans-serif;
+
+        }
+        p {
+          margin-top: 30px;
+          color: grey;
+          font-size: 11px;
+          padding: 0;
+        }
+      }
+    }
+    #article_service {
+      width: 100%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      .ligne__ {
+        width: 100%;
+        height: 50px;
+        background-image: url("../../images/ligne.png");
+        background-size: 20%;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .contain_services {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .service_title {
+          display: none;
+        }
+        #service_display_none {
+          display: none;
+        }
+        #responsive {
+          margin-left: 20px;
+        }
+        .service {
+          width:40%;
+          height:390px;
+          background-color: #56505a;
+          margin: 0;
+          border-radius: 30px;
+          position: relative;
+          .img_services {
+            width: 100%;
+            height: 55%;
+            background-color: dodgerblue;
+            border-radius: 20px;
+            background-image: url("../../images/services7.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top center;
+          }
+          .img_services2 {
+            width: 100%;
+            height: 55%;
+            background-color: dodgerblue;
+            border-radius: 20px;
+            background-image: url("../../images/service5.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top center;
+          }
+          .img_services3 {
+            width: 100%;
+            height: 55%;
+            background-color: dodgerblue;
+            border-radius: 20px;
+            background-image: url("../../images/services3.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top center;
+          }
+          .img_services4{
+            width: 100%;
+            height: 55%;
+            background-color: dodgerblue;
+            border-radius: 20px;
+            background-image: url("../../images/service4.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top center;
+          }
+          .content_ {
+            width: 100%;
+            height:25%;
+            background-color: #56505a;
+            color: white;
+            border-radius: 20px 20px 30px  30px;
+            padding: 5px 10px;
+            font-family: 'Montserrat', sans-serif;
+            h5 {
+              font-weight: bold;
+
+            }
+            p {
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

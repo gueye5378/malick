@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+
+  <link rel="stylesheet" href="./public/semantic/semantic.min.css">
+  <link rel="stylesheet" href="./public/css/component.scss">
+  <link rel="stylesheet" href="./public/css/header/index_header.css">
+  <link rel="stylesheet" href="./public/css/section/index_body.css">
+  <link rel="stylesheet" href="./public/css/footer/index_footer.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:ital@1&display=swap" rel="stylesheet">    <script src="https://kit.fontawesome.com/ca033e2644.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="splash"></div>
+<header>
+  <nav id="nav_">
+    <div class="nav_right">
+      <div class="header__img" >
+        <img src="./public/images/malicklogo.png" alt="logo.png" width="70%">
+      </div>
+      <div class="header__ul">
+        <ul>
+          <a href="#services"><li class="li_hoverActive">Services</li></a>
+          <a href="#propos"><li class="li_hover">À propos</li></a>
+          <a href="#compet"><li class="li_hover">Compétences</li></a>
+          <a href="#projets"><li class="li_hover">Projets</li></a>
+          <a href="#contact"><li class="li_hover">Contacts</li> </a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="title">
+    <div class="header_img"></div>
+    <div class="header_button">
+      <a href="#projets"><button type="button" class="btn btn-primary rounded-pill">Voir mes projets</button></a>
+      <a href="#contact"><i class="fas fa-share-alt-square"></i> Me contacter.</a>
+    </div>
+  </div>
+
+  <div id="section_services">
+    <div id="header_services">
+      <div class="subtext_services">
+        <img src="./public/images/What.png" alt="" width="40%" >
+      </div>
+      <div class="title_services" id="services">
+        <h1>Je suis un développeur front-end <br> passionné et sensible à l'UX Design !</h1>
+        <p>Je peux créer une identité visuelle unique et moderne pour vous aider à conquérir de nouveaux clients rapidement !</p>
+      </div>
+    </div>
+    <div id="article_service">
+      <div class="ligne__"></div>
+      <div class="contain_services">
+        <div class="service_title"></div>
+
+        <div class="service">
+          <div class="img_services"></div>
+          <div class="content_">
+            <h5>Gestion de projets</h5>
+            <br>
+            <p> Réalisation et gestion de sites vitrines, Web app, site événementiel, site ecommerce (Shopify, explication de l'interface administration si besoin).</p>
+            <br>
+          </div>
+        </div>
+        <div class="service" id="responsive">
+          <div class="img_services3"></div>
+          <div class="content_">
+            <h5>Responsive design</h5>
+            <br>
+            <p>Réalisation d'un site compatible tout supports( tablette et mobile ). Réalisation d'une Web App (site orienté uniquement mobile). </p>
+            <br>
+          </div>
+        </div>
+        <div class="service" id="service_display_none">
+          <div class="img_services4"></div>
+          <div class="content_">
+            <h5>Webedesign</h5>
+            <br>
+            <p>Des animations de contenues non intrusives pour embellir votre projet et conception de logos, templates web ...</p>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+
+
+<section id="propos">
+  <div id="carouselExampleIndicators" class="carousel slide container_carousel shadow-lg" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    </ol>
+    <div class="carousel-inner my__carousel" id="compet">
+      <!-- CAROUSEL 1 -->
+      <div class="carousel-item carou1 active">
+        <div class="aboutme">
+          <img src="../public/images/malick.png" width="30%" alt="" />
+          <h1>Commençons à travailler<span class="text-primary"> ensemble !</span></h1>
+          <p>Je suis un développeur en informatique spécialisé en web front-end depuis 1 an, j'ai pu à ce jour collaborer avec des personnes talentueuses pour créer des produits numériques avec une interface et une expérience utilisateur très élaborée.
+            Et grâce à chacune de ces missions j'ai pu monter en compétences et en apprendre toujours plus sur un métier que j'adore.
+            <br>
+            <br>
+            Vous avez une idée que vous voulez développer , n'hésitez pas <span class="text-primary">à me contacter</span> pour plus d'informations !
+          </p>
+          <div class="compteur">
+            <img src="./public/images/10.png" width="55%" />
+          </div>
+        </div>
+        <div class="number_">
+          <img src="./public/images/02.png" width="70%"/>
+        </div>
+        <div class="parafer_">
+          <img src="./public/images/02-02.png" width="30%" alt="">
+        </div>
+        <div class="next_"></div>
+      </div>
+      <!-- CAROUSEL 2 -->
+      <div class="carousel-item carou2">
+
+        <div class="text_carrou2">
+          <div class="text_data">
+            <div class="parafer_">
+              <img src="./public/images/01-02.png" width="70px" height="25px" alt="">
+            </div>
+            <h2><img src="./public/images/skills.png" alt="" width="40%"></h2>
+            <p>Le principal domaine de mon expertise est le développement front-end (côté client du web). Pour résumer je suis un concepteur d'interface utilisateur, mon but est de m'occuper de l'interface graphique et de l’ergonomie de l’application.
+              <br>
+              <br>
+              Mais une interface utilisateur n'est rien sans un back-end fonctionnel. C'est pour cela que j'ai aussi des compétences  dans ce domaine.
+              <br>
+              <span>À votre droite sont présentes l'ensemble des compétences que je maîtrise.</span>
+            </p>
+          </div>
+          <div class="image_carrou2"></div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev"  id="previous-button" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon text-dark"  aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" id="next-button" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</section>
+
+
+<div class="projet">
+  <div class="title_projet" id="projets">
+    <img src="./public/images/03.png" width="100%" alt="">
+  </div>
+  <div class="prjet_card">
+    <!-- colum 1 -->
+    <div class="colum_">
+      <div class="colum_card1">
+        <h2>01 Portfolio</h2>
+        <p>Pour moi-même j'ai réalisé un portfolio pour me permettre d'exposer mes projets à la vue de tous.</p>
+        <a href="" data-toggle="modal" data-target="#exampleModal"> En savoir plus</a>
+      </div>
+      <div class="colum_card2">
+        <h2>02 ToComposte</h2>
+        <p>Projet idéalisé et produit par moi le but de ce projet est de mettre en relation des utilisateurs dans le style de Airbnb</p>
+        <a href="" data-toggle="modal" data-target="#exampleModal2"> En savoir plus</a>
+      </div>
+    </div>
+    <!-- colum 2 -->
+    <div class="colum2">
+      <div class="colum2_card1">
+        <h2>04 House Deco</h2>
+        <p>Projet réalisé un particulier qui devait chercher à digitaliser un commerce en ligne sous la forme de showroom </p>
+        <a href="" data-toggle="modal" data-target="#exampleModal3"> En savoir plus</a>
+      </div>
+      <div class="colum2_card2">
+        <h2>05 MUba digital</h2>
+        <p>Conçu dans une logique immersive et participative, le parcours de l’exposition Design : please do so est amplifié en unifiant son caractère universel par le biais des émotions, tout en y ajoutant une autre dimension : celle de l’ubiquité.
+        </p>
+        <a href="" data-toggle="modal" data-target="#exampleModal4"> En savoir plus</a>
+      </div>
+      <div class="colum2_card3">
+        <h2>06 Netflix copy</h2>
+        <p>Projet réalisé pour un étudiant qui avez besoin d'une copie de l'application mondialement conu Netflix</p>
+        <a href="" data-toggle="modal" data-target="#exampleModal5"> En savoir plus</a>
+      </div>
+    </div>
+    <!-- colum 3 -->
+    <div class="colum_">
+      <div class="colum_card4">
+        <h2>07 Facebook copy</h2>
+        <p>Projet réalisé pour un étudiant qui avez besoin d'une copie de l'application mondialement connu Facebook</p>
+        <a href="" data-toggle="modal" data-target="#exampleModal6"> En savoir plus</a>
+      </div>
+      <div class="colum_card5">
+        <h2>08 Portfolio </h2>
+        <p>Projet réalisé pour un particulié qui avez besoin d'un site vitrine pour présenter ses projets</p>
+        <a href="" data-toggle="modal" data-target="#exampleModal7"> En savoir plus</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-body p-0">
+        <div class="modal_content">
+          <div class="modal_rigth">
+            <div class="data_project_cpntain">
+              <div class="close" data-dismiss="modal">
+                <i class="fas fa-times" style="font-size: 27px"> </i>
+              </div>
+              <h1>Portfolio - Site Vitrine</h1>
+              <h5>Description du projet</h5>
+
+              <p><span>Objectif du projet :</span> <br>
+                Ce portfolio a été créé pour mes propres besoins. À cette époque je devais trouver une alternance et celui-ci m'a été utile pour montrer mes projets ainsi que mes compétences aux entreprises.              </p>
+              <p><span>Technologies :</span> <br>
+                Sur ce projet j'ai utilisé principalement l'HTML pour construire l'ossature de ma page puis j'ai utilisé du Css pour embellir ma page. Aussi j'ai des notions sur Photoshop ce qui m’a permis de réaliser certaines illustrations et embellir / animer d'autres images.              </p>
+              <p>HTML - CSS - JAVASCRIPT</p>
+              <div class="progress">
+                <div class="progress-bar color_" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p>PHOTOSHOP / CANVA </p>
+              <div class="progress">
+                <div class="progress-bar color_" role="progressbar" style="width: 40%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="avis_container">
+                <a href="https://gueye5378.github.io/gueye5378-index.html/">
+                  <div class="shadow information">
+                    <p> Lien: <br>
+                      https://gueye5378.github.io/gueye5378-index.html/</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="galerie">
+              <div class="titile_galerie">
+                <p>Le projet en image</p>
+                <div class="collum_contain">
+                  <div class="collum_galerie">
+                    <div class="galerie1"><img src="./public/images/photo_projet/porfolio_malick/p1.png" width="100%" height="100%"></div>
+                    <div class="galerie2"><img src="./public/images/photo_projet/porfolio_malick/p2.png" width="100%" height="100%"></div>
+                  </div>
+                  <div class="collum_galerie">
+                    <div class="galerie3"><img src="./public/images/photo_projet/porfolio_malick/p3.png" width="100%" height="100%"></div>
+                    <div class="galerie4"><img src="./public/images/photo_projet/porfolio_malick/p6.png" width="100%" height="100%"></div>
+                  </div>
+                  <div class="collum_galerie">
+                    <div class="galerie5"><img src="./public/images/photo_projet/porfolio_malick/p4.png" width="100%" height="100%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal_left"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-body p-0">
+        <div class="modal_content">
+          <div class="modal_rigth">
+            <div class="data_project_cpntain">
+              <div class="close" data-dismiss="modal">
+                <i class="fas fa-times" style="font-size: 27px"> </i>
+              </div>
+              <h1>TOCOMPOSTE</h1>
+              <h5>Description du projet</h5>
+
+              <p><span>Intro :</span> <br>
+                Tocomposte est un projet imaginé développé et bientôt hébergé, j'ai choisi de faire un projet environnemental basé sur le composte.
+              <p><span>Objectif du projet :</span> <br>
+                Grâce à mon application Web une personne vivant en centre-ville (utilisateur client) pourrait être mis en relation avec une personne possédant une solution de tri (utilisateur propriétaire) de déchets comme un composte. Par le biais d'un abonnement l'utilisateur propriétaire pourrait s'occuper des biodéchets d'un utilisateur client.              </p>
+              <p><span>Technologies :</span> <br>
+                Sur ce projet j'ai utilisé principalement Node js comme framework j'ai créé mon api avec Express js et j'ai stocké mes données avec Mysql . Ensuite J'ai utilisé EJS comme moteur de template et  de l'HTML CSS pour le rendu côté client.
+              </p>
+              <p>HTML - CSS - JAVASCRIPT</p>
+              <div class="progress">
+                <div class="progress-bar color_" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p>PHOTOSHOP / CANVA </p>
+              <div class="progress">
+                <div class="progress-bar color_" role="progressbar" style="width: 40%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="galerie">
+              <div class="titile_galerie">
+                <p>Le projet en image</p>
+                <div class="collum_contain">
+                  <div class="collum_galerie">
+                    <div class="galerie1"><img src="./public/images/photo_projet/tocompost/pt1.png" width="100%" height="100%"></div>
+                    <div class="galerie2"><img src="./public/images/photo_projet/tocompost/pt2.png" width="100%" height="100%"></div>
+                  </div>
+                  <div class="collum_galerie">
+                    <div class="galerie3"><img src="./public/images/photo_projet/tocompost/pt3.png" width="100%" height="100%"></div>
+                    <div class="galerie4"><img src="./public/images/photo_projet/tocompost/pt4.png" width="100%" height="100%"></div>
+                  </div>
+                  <div class="collum_galerie">
+                    <div class="galerie5"><img src="./public/images/photo_projet/tocompost/pt6.png" width="100%" height="100%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal_left2"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-body p-0">
+        <div class="modal_content">
+          <div class="modal_rigth">
+            <div class="data_project_cpntain">
+              <div class="close" data-dismiss="modal">
+                <i class="fas fa-times" style="font-size: 27px"> </i>
+              </div>
+              <h1>HOUSE DECO</h1>
+              <h5>Description du projet</h5>
+
+
+              <p><span>Objectif du projet :</span> <br>
+                Ce projet a été créé et proposé par un particulier. Son projet était de digitaliser son commerce sous forme de showroom.
+              <p><span>Technologies :</span> <br>
+              Sur ce projet j'ai utilisé principalement Node js comme framework j'ai créé mon api avec express js et j'ai stocké mes données avec Mongo db . Ensuite J'ai utilisé EJS comme moteur de template et de l'HTML CSS pour le rendu côté client.              </p>
+              <p>HTML - CSS - JAVASCRIPT</p>
+              <div class="progress">
+                <div class="progress-bar color_" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p>PHOTOSHOP / CANVA </p>
+              <div class="progress">
+                <div class="progress-bar color_" role="progressbar" style="width: 40%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="galerie">
+              <div class="titile_galerie">
+                <p>Le projet en image</p>
+                <div class="collum_contain">
+                  <div class="collum_galerie">
+                    <div class="galerie1"><img src="./public/images/photo_projet/housedeco/ph1.png" width="100%" height="100%"></div>
+                    <div class="galerie2"><img src="./public/images/photo_projet/housedeco/ph2.png" width="100%" height="100%"></div>
+                  </div>
+                  <div class="collum_galerie">
+                    <div class="galerie3"><img src="./public/images/photo_projet/housedeco/ph3.png" width="100%" height="100%"></div>
+                    <div class="galerie4"><img src="./public/images/photo_projet/housedeco/ph4.png" width="100%" height="100%"></div>
+                  </div>
+                  <div class="collum_galerie">
+                    <div class="galerie5"><img src="./public/images/photo_projet/housedeco/ph5.png" width="100%" height="100%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal_left3"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-body p-0">
+        <div class="modal_content">
+          <div class="modal_rigth">
+            <div class="data_project_cpntain">
+              <div class="close" data-dismiss="modal">
+                <i class="fas fa-times" style="font-size: 27px"> </i>
+              </div>
+              <h1>MUba digital</h1>
+              <h5>Description du projet</h5>
+
+
+              <p><span>Objectif du projet :</span> <br>
+                Dans le cadre de Lille Métropole 2020, Capitale mondiale du Design, le MUba Eugène Leroy met en avant le design, discipline aux multiples formes, en présentant les jeunes talents de la région Hauts-de-France et de l'Eurorégion, sélectionnés sur appel à candidatures par le biais de cette plateforme.
+              <p><span>Technologies :</span> <br>
+                Sur ce projet j'ai utilisé principalement NUXT JS comme framework nous avons créé l'api avec Appolo et et stocké les données avec MongoDB . Ensuite J'ai utilisé EJS comme moteur de templates et de l'HTML CSS pour le rendu côté client.
+              <p>NUXT JS - HTML SASS - </p>
+              <div class="progress">
+                <div class="progress-bar color_" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p>MONGO - DOCKER - APPOLO</p>
+              <div class="progress">
+                <div class="progress-bar color_" role="progressbar" style="width: 40%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="avis_container">
+                <a href="https://webapp.holisense.art/start">
+                  <div class="shadow information">
+                    <p> Lien: <br>
+                      https://webapp.holisense.art/start</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="galerie">
+              <div class="titile_galerie">
+                <p>Le projet en image</p>
+                <div class="collum_contain">
+                  <div class="collum_galerie">
+                    <div class="galerie1"><img src="./public/images/photo_projet/pleasedoso/pc1.png" width="100%" height="100%"></div>
+                    <div class="galerie2"><img src="./public/images/photo_projet/pleasedoso/pc2.png" width="100%" height="100%"></div>
+                  </div>
+                  <div class="collum_galerie">
+                    <div class="galerie3"><img src="./public/images/photo_projet/pleasedoso/pc3.png" width="100%" height="100%"></div>
+                    <div class="galerie4"><img src="./public/images/photo_projet/pleasedoso/pc5.png" width="100%" height="100%"></div>
+                  </div>
+                  <div class="collum_galerie">
+                    <div class="galerie5"><img src="./public/images/photo_projet/pleasedoso/pc4.png" width="100%" height="100%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal_left4"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-body p-0">
+        <div class="modal_content">
+          <div class="modal_rigth">
+            <div class="data_project_cpntain">
+              <div class="close" data-dismiss="modal">
+                <i class="fas fa-times" style="font-size: 27px"> </i>
+              </div>
+              <h1>FACEBOOK CLONE :</h1>
+              <h5>Description du projet</h5>
+
+
+              <p><span>Objectif du projet :</span> <br>
+                Sur ce projet j'ai recodé l'application connue de tout le monde Facebook par améliorer mes compétences en ReactJs qui est un framework web montant et très demandé en entreprise
+              <p><span>Technologies :</span> <br>
+              Sur ce projet j'ai utilisé principalement React Js comme framework et j’ai enregistré mes données sur Firebase qui m’a aussi servi pour faire l’authentification avec google.
+              <p>React Js - Firebase - google</p>
+              <div class="progress">
+                <div class="progress-bar color_" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p>HTML - CSS</p>
+              <div class="progress">
+                <div class="progress-bar color_" role="progressbar" style="width: 40%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="galerie">
+              <div class="titile_galerie">
+                <p>Le projet en image</p>
+                <div class="collum_contain">
+                  <div class="collum_galerie">
+                    <div class="galerie1"><img src="./public/images/photo_projet/facebook/pf1.png" width="100%" height="100%"></div>
+                    <div class="galerie2"><img src="./public/images/photo_projet/facebook/pf2.png" width="100%" height="100%"></div>
+                  </div>
+                  <div class="collum_galerie">
+                    <div class="galerie3"><img src="./public/images/photo_projet/facebook/pf3.png" width="100%" height="100%"></div>
+                    <div class="galerie4"><img src="./public/images/photo_projet/facebook/pf4.png" width="100%" height="100%"></div>
+                  </div>
+                  <div class="collum_galerie">
+                    <div class="galerie5"><img src="./public/images/photo_projet/facebook/pf5.png" width="100%" height="100%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal_left6"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-body p-0">
+        <div class="modal_content">
+          <div class="modal_rigth">
+            <div class="data_project_cpntain">
+              <div class="close" data-dismiss="modal">
+                <i class="fas fa-times" style="font-size: 27px"> </i>
+              </div>
+              <h1>NETFIX CLONE :</h1>
+              <h5>Description du projet</h5>
+
+
+              <p><span>Objectif du projet :</span> <br>
+                Sur ce projet j'ai recodé l'application connue de tout le monde Netflix pour améliorer mes compétences en ReactJs qui est un framework web montant et très demandé en entreprise
+              <p><span>Technologies :</span> <br>
+                Sur ce projet j'ai utilisé principalement React Js comme framework et j'ai utilisé l'api themoviedb pour récupérer les images
+              <p>React Js </p>
+              <div class="progress">
+                <div class="progress-bar color_" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p>HTML - CSS</p>
+              <div class="progress">
+                <div class="progress-bar color_" role="progressbar" style="width: 40%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="galerie">
+              <div class="titile_galerie">
+                <p>Le projet en image</p>
+                <div class="collum_contain">
+                  <div class="collum_galerie">
+                    <div class="galerie1"><img src="./public/images/photo_projet/netflix/pn4.png" width="100%" height="100%"></div>
+                    <div class="galerie2"><img src="./public/images/photo_projet/netflix/pn2.png" width="100%" height="100%"></div>
+                  </div>
+                  <div class="collum_galerie">
+                    <div class="galerie3"><img src="./public/images/photo_projet/netflix/pn3.png" width="100%" height="100%"></div>
+                    <div class="galerie4"><img src="./public/images/photo_projet/netflix/pn1.png" width="100%" height="100%"></div>
+                  </div>
+                  <div class="collum_galerie">
+                    <div class="galerie5"><img src="./public/images/photo_projet/netflix/pn5.png" width="100%" height="100%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal_left7"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-body p-0">
+        <div class="modal_content">
+          <div class="modal_rigth">
+            <div class="data_project_cpntain">
+              <div class="close" data-dismiss="modal">
+                <i class="fas fa-times" style="font-size: 27px"> </i>
+              </div>
+              <h1>Portfolio - Site Vitrine</h1>
+              <h5>Description du projet</h5>
+
+              <p><span>Objectif du projet :</span> <br>
+                Ce portfolio a été créé pour un particulier, son but était d'avoir un moyen de montrer son travail, ses projets et son parcour </p>
+              <p><span>Technologies :</span> <br>
+                Sur ce projet j'ai utilisé principalement l'HTML pour construire l'ossature de ma page puis j'ai utilisé du Css pour embellir ma page. Aussi j'ai des notions sur Photoshop ce qui m’a permis de réaliser certaines illustrations et embellir / animer d'autres images.
+              </p>
+              <p>HTML - CSS - JAVASCRIPT</p>
+              <div class="progress">
+                <div class="progress-bar color_" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p>PHOTOSHOP / CANVA </p>
+              <div class="progress">
+                <div class="progress-bar color_" role="progressbar" style="width: 40%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+            </div>
+            <div class="galerie">
+              <div class="titile_galerie">
+                <p>Le projet en image</p>
+                <div class="collum_contain">
+                  <div class="collum_galerie">
+                    <div class="galerie1"><img src="./public/images/photo_projet/loick/pl2.png" width="100%" height="100%"></div>
+                    <div class="galerie2"><img src="./public/images/photo_projet/loick/pl4.png" width="100%" height="100%"></div>
+                  </div>
+                  <div class="collum_galerie">
+                    <div class="galerie3"><img src="./public/images/photo_projet/loick/pl3.png" width="100%" height="100%"></div>
+                    <div class="galerie4"><img src="./public/images/photo_projet/loick/pl2.png" width="100%" height="100%"></div>
+                  </div>
+                  <div class="collum_galerie">
+                    <div class="galerie5"><img src="./public/images/photo_projet/loick/pl5.png" width="100%" height="100%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal_left8"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!--FOOTER-->
+<footer class="footer" id="contact">
+  <div class="footer_title">
+    <div class="title_"></div>
+    <div class="title_img"></div>
+  </div>
+  <div class="footer_form">
+    <div class="card_footer ">
+      <div class="form_footer"></div>
+      <div class="information_footer">
+        <div><h3>Malick Gueye,<br> Développeur Front-End Freelance </h3></div>
+        <div class="dropdown-divider" style="background-color: white; width: 15%"></div>
+        <div class="div_information"><i class="fas fa-envelope"></i> <p>gueyemalick125@gmail.com</p></div>
+        <div class="div_information"><i class="fas fa-mobile"></i> <p> +33 6 20 67 51 30</p></div>
+        <div class="div_information" id="information_display_none"><i class="fab fa-linkedin-in"></i><p><a href="https://www.linkedin.com/in/malick-gueye12/">https://www.linkedin.com/in/malick-gueye12/</a></p></div>
+        <!-- <div class="div_information"><i class="fab fa-linkedin"></i> <p><a href="https://www.linkedin.com/in/malick-gueye12">https://www.linkedin.com/in/<br>malick-gueye12</a></p></div> -->
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+<script>
+  const splash = document.querySelector('.splash');
+  document.addEventListener('DOMContentLoaded', (e)=>{
+    setTimeout(()=>{
+      splash.classList.add('display-none');
+    },3700);
+  })
+</script>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<script src="./js/scroll.js"></script>
+</body>
+</html>

@@ -1,0 +1,955 @@
+.splash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../images/loading.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 200;
+}
+
+.splash.display-none {
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../images/loading.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -10;
+  transition: all 0.5s;
+}
+
+section {
+  width: 100%;
+  height: auto;
+  padding-top: 3%;
+  padding-bottom: 4%;
+}
+section .container_carousel {
+  width: 90%;
+  height: 780px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+section .container_carousel .my__carousel {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+section .container_carousel .my__carousel .carou1 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../images/background_carousel3.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+section .container_carousel .my__carousel .carou1 .aboutme {
+  width: 53%;
+  height: 70%;
+  position: absolute;
+  top: 7%;
+  right: 0;
+  padding: 20px;
+}
+section .container_carousel .my__carousel .carou1 .aboutme h1 {
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+section .container_carousel .my__carousel .carou1 .aboutme p {
+  width: 80%;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 30px;
+  font-size: 16px;
+  word-spacing: 5px;
+}
+section .container_carousel .my__carousel .carou1 .parafer_ {
+  width: 20%;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 5%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+section .container_carousel .my__carousel .carou1 .compteur {
+  margin-top: 40px;
+  width: 100%;
+  height: 100px;
+}
+section .container_carousel .my__carousel .carou1 .number_ {
+  width: 12%;
+  height: 130px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+section .container_carousel .my__carousel .carou2 {
+  height: 100%;
+  position: relative;
+}
+section .container_carousel .my__carousel .carou2 .parafer_ {
+  width: 20%;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 5%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+section .container_carousel .my__carousel .carou2 .compteur {
+  margin-top: 40px;
+  width: 100%;
+  height: 100px;
+}
+section .container_carousel .my__carousel .carou2 .number_ {
+  width: 12%;
+  height: 130px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+section .container_carousel .my__carousel .carou2 .title_carou2 {
+  width: 40%;
+  height: 100px;
+  margin: 0 20px 20px 20px;
+}
+section .container_carousel .my__carousel .carou2 .text_carrou2 {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+}
+section .container_carousel .my__carousel .carou2 .text_carrou2 .text_data {
+  position: relative;
+  width: 50%;
+  min-height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+}
+section .container_carousel .my__carousel .carou2 .text_carrou2 .text_data p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+section .container_carousel .my__carousel .carou2 .text_carrou2 .text_data p span {
+  font-weight: bold;
+}
+section .container_carousel .my__carousel .carou2 .text_carrou2 .text_data h2 {
+  text-align: left;
+}
+section .container_carousel .my__carousel .carou2 .text_carrou2 .text_data .parafer_ {
+  width: 20%;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 2%;
+}
+section .container_carousel .my__carousel .carou2 .text_carrou2 .text_data .button_carou2 button {
+  font-family: "Montserrat", sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+section .container_carousel .my__carousel .carou2 .text_carrou2 .image_carrou2 {
+  width: 50%;
+  min-height: 100%;
+  background-image: url("../../images/projetcarou2.png");
+  background-size: cover;
+  background-color: #464248;
+  background-position: center;
+}
+
+.next_ {
+  width: 10%;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  top: 45%;
+  background-image: url("../../images/next2.png");
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+
+span {
+  font-weight: 600;
+}
+
+.active_ {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+@media only screen and (max-width: 1120px) {
+  section {
+    width: 100%;
+    height: auto;
+    padding-top: 3%;
+  }
+  section .container_carousel {
+    width: 90%;
+    height: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+  }
+  section .container_carousel .my__carousel {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  section .container_carousel .my__carousel .carou1 {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../images/background_carousel3.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  section .container_carousel .my__carousel .carou1 .aboutme {
+    width: 53%;
+    height: 70%;
+    position: absolute;
+    top: 7%;
+    right: 0;
+    padding: 20px;
+  }
+  section .container_carousel .my__carousel .carou1 .aboutme h1 {
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+  }
+  section .container_carousel .my__carousel .carou1 .aboutme p {
+    width: 80%;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 30px;
+    font-size: 14px;
+    word-spacing: 5px;
+  }
+  section .container_carousel .my__carousel .carou1 .parafer_ {
+    width: 20%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 5%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  section .container_carousel .my__carousel .carou1 .compteur {
+    margin-top: 40px;
+    width: 100%;
+    height: 100px;
+  }
+  section .container_carousel .my__carousel .carou1 .number_ {
+    width: 12%;
+    height: 130px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  section .container_carousel .my__carousel .title_carou2 {
+    width: 40%;
+    height: 100px;
+    margin: 0 20px 20px 20px;
+  }
+  section .container_carousel .my__carousel .text_carrou2 {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+  }
+  section .container_carousel .my__carousel .text_carrou2 .text_data {
+    position: relative;
+    width: 50%;
+    min-height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+  }
+  section .container_carousel .my__carousel .text_carrou2 .text_data p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+  }
+  section .container_carousel .my__carousel .text_carrou2 .text_data p span {
+    font-weight: bold;
+  }
+  section .container_carousel .my__carousel .text_carrou2 .text_data h2 {
+    text-align: left;
+  }
+  section .container_carousel .my__carousel .text_carrou2 .text_data .parafer_ {
+    width: 20%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 2%;
+  }
+  section .container_carousel .my__carousel .text_carrou2 .image_carrou2 {
+    width: 50%;
+    min-height: 100%;
+    background-image: url("../../images/projetcarou2.png");
+    background-size: cover;
+    background-color: #464248;
+    background-position: center;
+  }
+
+  .next_ {
+    width: 10%;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    top: 45%;
+    background-image: url("../../images/next2.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+  }
+
+  span {
+    font-weight: 600;
+  }
+
+  .active_ {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+  }
+}
+.projet {
+  width: 100%;
+  height: auto;
+  background-image: url("../../images/wallpaper_projet3.png");
+  background-size: cover;
+  display: flex;
+  padding: 20px;
+}
+
+.title_projet {
+  width: 20%;
+  height: 100%;
+}
+
+.prjet_card {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* OOLUM COLUM RIGHT LEFT */
+.colum_ {
+  height: 100%;
+  flex: 1;
+}
+
+/* CARD PROJET 1 */
+.colum_card1 {
+  width: 100%;
+  height: 530px;
+  background-image: url("../../images/portfoliomalick.png");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  transition: transform 0.2s;
+  /* Animation */
+  color: transparent;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.colum_card1 a {
+  text-decoration: none;
+  color: transparent;
+  outline: none;
+}
+
+.colum_card1:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+  background: black;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.colum_card1:hover a {
+  text-decoration: none;
+  padding: 10px 5px;
+  border-radius: 10px;
+  border: 1px solid white;
+  width: 50%;
+  text-align: center;
+  color: white;
+  outline: none;
+}
+
+/* CARD PROJET 2  */
+.colum_card2 {
+  width: 100%;
+  height: 530px;
+  background-image: url("../../images/tocomposte.png");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  transition: transform 0.2s;
+  /* Animation */
+  color: transparent;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.colum_card2 a {
+  text-decoration: none;
+  color: transparent;
+  outline: none;
+}
+
+.colum_card2:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+  background: black;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.colum_card2:hover a {
+  text-decoration: none;
+  padding: 10px 5px;
+  border-radius: 10px;
+  border: 1px solid white;
+  width: 50%;
+  text-align: center;
+  color: white;
+  outline: none;
+}
+
+.colum_card4 {
+  width: 100%;
+  height: 530px;
+  background-image: url("../../images/facebook.png");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  transition: transform 0.2s;
+  /* Animation */
+  color: transparent;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.colum_card4 a {
+  text-decoration: none;
+  color: transparent;
+  outline: none;
+}
+
+.colum_card4:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+  background: black;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.colum_card4:hover a {
+  text-decoration: none;
+  padding: 10px 5px;
+  border-radius: 10px;
+  border: 1px solid white;
+  width: 50%;
+  text-align: center;
+  color: white;
+  outline: none;
+}
+
+.colum_card5 {
+  width: 100%;
+  height: 530px;
+  background-image: url("../../images/loickprojet2.png");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  transition: transform 0.2s;
+  /* Animation */
+  color: transparent;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.colum_card5 a {
+  text-decoration: none;
+  color: transparent;
+  outline: none;
+}
+
+.colum_card5:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+  background: black;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.colum_card5:hover a {
+  text-decoration: none;
+  padding: 10px 5px;
+  border-radius: 10px;
+  border: 1px solid white;
+  width: 50%;
+  text-align: center;
+  color: white;
+  outline: none;
+}
+
+/* COLUM CENTER */
+.colum2 {
+  height: 100%;
+  flex: 2;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+}
+
+.colum2_card1 {
+  width: 100%;
+  height: 350px;
+  background-image: url("../../images/house_deco.png");
+  background-size: cover;
+  margin-bottom: 20px;
+  transition: transform 0.2s;
+  /* Animation */
+  color: transparent;
+  font-family: "Montserrat", sans-serif;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.colum2_card1 a {
+  text-decoration: none;
+  color: transparent;
+  outline: none;
+}
+
+.colum2_card1:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+  background: black;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.colum2_card1:hover a {
+  text-decoration: none;
+  padding: 10px 5px;
+  border-radius: 10px;
+  border: 1px solid white;
+  width: 50%;
+  text-align: center;
+  color: white;
+  outline: none;
+}
+
+.colum2_card3 {
+  width: 100%;
+  height: 350px;
+  background-image: url("../../images/netflix.png");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  transition: transform 0.2s;
+  /* Animation */
+  color: transparent;
+  font-family: "Montserrat", sans-serif;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.colum2_card3 a {
+  text-decoration: none;
+  color: transparent;
+  outline: none;
+}
+
+.colum2_card3:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+  background: black;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.colum2_card3:hover a {
+  text-decoration: none;
+  padding: 10px 5px;
+  border-radius: 10px;
+  border: 1px solid white;
+  width: 50%;
+  text-align: center;
+  color: white;
+  outline: none;
+}
+
+.colum2_card2 {
+  width: 100%;
+  height: 350px;
+  background-image: url("../../images/projet_holisens.png");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  transition: transform 0.2s;
+  /* Animation */
+  color: transparent;
+  font-family: "Montserrat", sans-serif;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.colum2_card2 a {
+  text-decoration: none;
+  color: transparent;
+  outline: none;
+}
+
+.colum2_card2:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+  background: black;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.colum2_card2:hover a {
+  text-decoration: none;
+  padding: 10px 5px;
+  border-radius: 10px;
+  border: 1px solid white;
+  width: 50%;
+  text-align: center;
+  color: white;
+  outline: none;
+}
+
+.modal_content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.modal_rigth {
+  width: 60%;
+  height: 100%;
+}
+.modal_rigth .data_project_cpntain {
+  padding: 15px;
+}
+.modal_rigth .close {
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+}
+.modal_rigth h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+}
+.modal_rigth h5 {
+  color: rgba(49, 49, 49, 0.84);
+  padding-bottom: 20px;
+}
+.modal_rigth p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+}
+.modal_rigth p span {
+  font-weight: bold;
+  font-size: 14px;
+}
+.modal_rigth .progress {
+  margin-bottom: 20px;
+}
+.modal_rigth .color_ {
+  background-color: #464248;
+}
+.modal_rigth .avis_container {
+  padding-top: 4%;
+}
+.modal_rigth .avis_container a {
+  text-decoration: none;
+}
+.modal_rigth .information {
+  width: 50%;
+  height: auto;
+  word-wrap: break-word;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+.modal_rigth .information p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  color: rgba(49, 49, 49, 0.84);
+  font-style: italic;
+}
+.modal_rigth .galerie {
+  width: 100%;
+  height: 300px;
+  background-color: #464248;
+  border-radius: 0 10px 0 0;
+  margin-top: 40px;
+  position: relative;
+}
+.modal_rigth .galerie p {
+  padding: 5px 10px;
+  background-color: #464248;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 0 10px 0 0;
+  width: 150px;
+  position: absolute;
+  top: -24px;
+}
+.modal_rigth .galerie .collum_contain {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.modal_rigth .galerie .collum_contain .collum_galerie {
+  width: 30%;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.modal_rigth .galerie .collum_contain .collum_galerie img {
+  border-radius: 10px;
+}
+.modal_rigth .galerie .collum_contain .collum_galerie .galerie1 {
+  width: 100%;
+  height: 45%;
+  border-radius: 10px;
+}
+.modal_rigth .galerie .collum_contain .collum_galerie .galerie2 {
+  width: 100%;
+  height: 45%;
+  border-radius: 10px;
+}
+.modal_rigth .galerie .collum_contain .collum_galerie .galerie3 {
+  width: 100%;
+  height: 50%;
+  border-radius: 10px;
+}
+.modal_rigth .galerie .collum_contain .collum_galerie .galerie4 {
+  width: 100%;
+  height: 40%;
+  border-radius: 10px;
+}
+.modal_rigth .galerie .collum_contain .collum_galerie .galerie5 {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.modal_left {
+  width: 40%;
+  min-height: 682px;
+  background-image: url("../../images/portfoliomalick.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.modal_left2 {
+  width: 40%;
+  min-height: 682px;
+  background-image: url("../../images/tocomposte.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.modal_left3 {
+  width: 40%;
+  min-height: 682px;
+  background-image: url("../../images/house_deco.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.modal_left4 {
+  width: 40%;
+  min-height: 682px;
+  background-image: url("../../images/projet_holisens.png");
+  background-position: top;
+  background-size: cover;
+}
+
+.modal_left6 {
+  width: 40%;
+  min-height: 682px;
+  background-image: url("../../images/facebook.png");
+  background-position: top;
+  background-size: cover;
+}
+
+.modal_left7 {
+  width: 40%;
+  min-height: 682px;
+  background-image: url("../../images/netflix.png");
+  background-position: top;
+  background-size: cover;
+}
+
+.modal_left8 {
+  width: 40%;
+  min-height: 682px;
+  background-image: url("../../images/loickprojet2.png");
+  background-position: top;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1120px) {
+  .projet {
+    width: 100%;
+    height: auto;
+    background-image: url("../../images/wallpaper_projet3.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .prjet_card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title_projet {
+    display: none;
+  }
+
+  .colum2_card3 {
+    width: 100%;
+    height: 350px;
+    background-image: url("../../images/netflix.png");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+    /* Animation */
+    color: transparent;
+    font-family: "Montserrat", sans-serif;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .colum2_card3 a {
+    text-decoration: none;
+    color: transparent;
+  }
+
+  .colum2_card3:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+    background: black;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+  }
+
+  .modal_content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .modal_content .modal_rigth {
+    width: 100%;
+    height: 100%;
+  }
+  .modal_content .modal_left {
+    width: 100%;
+    min-height: 682px;
+    background-image: url("../../images/portfoliomalick.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .modal_content .modal_left2 {
+    width: 100%;
+    min-height: 682px;
+    background-image: url("../../images/tocomposte.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .modal_content .modal_left3 {
+    width: 100%;
+    min-height: 682px;
+    background-image: url("../../images/house_deco.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .modal_content .modal_left4 {
+    width: 100%;
+    min-height: 682px;
+    background-image: url("../../images/projet_holisens.png");
+    background-position: top;
+    background-size: cover;
+  }
+  .modal_content .modal_left6 {
+    width: 100%;
+    min-height: 682px;
+    background-image: url("../../images/facebook.png");
+    background-position: top;
+    background-size: cover;
+  }
+  .modal_content .modal_left7 {
+    width: 100%;
+    min-height: 682px;
+    background-image: url("../../images/netflix.png");
+    background-position: top;
+    background-size: cover;
+  }
+  .modal_content .modal_left8 {
+    width: 100%;
+    min-height: 682px;
+    background-image: url("../../images/loickprojet2.png");
+    background-position: top;
+    background-size: cover;
+  }
+}
+
+/*# sourceMappingURL=index_body.css.map */
